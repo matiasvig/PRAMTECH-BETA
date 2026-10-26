@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Artefactos de desarrollo: no forman parte del sitio publicado.
+Disallow: /docs/
+Disallow: /tools/
+
+Sitemap: https://www.pramtech.cl/sitemap.xml

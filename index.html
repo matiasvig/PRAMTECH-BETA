@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>PramTech | Tecnología amigable para tu pyme</title>
+  <meta name="description" content="PramTech ordena tu inventario, automatiza tus ventas online y te acompaña paso a paso con micro-apps e IA. Tecnología simple para pymes, sin miedo y sin sobrecostos." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0B1F3A" />
+  <meta name="application-name" content="PramTech" />
+  <link rel="canonical" href="https://www.pramtech.cl/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CL" />
+  <meta property="og:site_name" content="PramTech" />
+  <meta property="og:title" content="PramTech | Tecnología amigable para tu pyme" />
+  <meta property="og:description" content="Ordena tu inventario y automatiza tus ventas sin volverte experto en tecnología. Asesoría humana + micro-apps con IA." />
+  <meta property="og:url" content="https://www.pramtech.cl/" />
+  <meta property="og:image" content="https://www.pramtech.cl/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="PramTech: tecnología amigable para tu pyme." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PramTech | Tecnología amigable para tu pyme" />
+  <meta name="twitter:description" content="Ordena tu inventario y automatiza tus ventas sin volverte experto en tecnología. Asesoría humana + micro-apps con IA." />
+  <meta name="twitter:image" content="https://www.pramtech.cl/assets/og-image.png" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" as="image" href="assets/img/antonio-480.avif" imagesrcset="assets/img/antonio-480.avif 480w, assets/img/antonio-720.avif 720w" imagesizes="(min-width: 960px) 32vw, 100vw" type="image/avif" fetchpriority="high" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="home2.css" />
+  <link rel="stylesheet" href="overlays.css" />
+
+  <script>
+    document.documentElement.classList.add("js");
+    window.setTimeout(function () {
+      if (!window.__pramRevealReady) {
+        document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("is-in"); });
+      }
+    }, 2500);
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.pramtech.cl/#organization",
+        "name": "PramTech",
+        "url": "https://www.pramtech.cl/",
+        "logo": "https://www.pramtech.cl/assets/logo-mark.svg",
+        "image": "https://www.pramtech.cl/assets/og-image.png",
+        "email": "hola@pramtech.com",
+        "description": "Tecnología amigable para pymes chilenas: control de inventario, automatización de ventas online, asistente con IA y reportes simples, con acompañamiento humano.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+56961864903",
+          "contactType": "customer service",
+          "areaServed": "CL",
+          "availableLanguage": "es-CL"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.pramtech.cl/#website",
+        "url": "https://www.pramtech.cl/",
+        "name": "PramTech",
+        "publisher": { "@id": "https://www.pramtech.cl/#organization" },
+        "inLanguage": "es-CL"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.pramtech.cl/#preguntas",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Necesito saber de tecnología?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Partimos por lo que ya usas: WhatsApp, tu cuaderno, tus planillas. Te explicamos en palabras simples y dejamos todo configurado contigo." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué pasa en el diagnóstico de 30 minutos?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Conversamos sobre cómo funciona tu negocio hoy, qué te complica y qué te gustaría ordenar primero. Sales con recomendaciones concretas, aunque no trabajes con nosotros." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Tengo que contratar algo para hablar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. El diagnóstico es gratuito y sin compromiso." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué pasa después?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Si lo que conversamos te sirve, instalamos y configuramos contigo. Te enseñamos a usarlo y quedamos disponibles por si algo se complica." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Trabajan con negocios como el mío?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con pymes chilenas que venden productos y necesitan ordenar su bodega, sus pedidos o sus mensajes. Si tu caso no calza, te lo decimos en la primera conversación." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="announce" id="announce" role="region" aria-label="Anuncio de lanzamiento de PramTech">
+    <div class="announce__track">
+      <span class="announce__item">
+        <span class="announce__dot" aria-hidden="true"></span>
+        ¡Próximamente! En PramTech estamos afinando los últimos detalles para nuestro lanzamiento oficial. ¡Grandes soluciones tecnológicas están en camino!
+        <span class="announce__sep" aria-hidden="true">•</span>
+      </span>
+      <span class="announce__item" aria-hidden="true">
+        <span class="announce__dot" aria-hidden="true"></span>
+        ¡Próximamente! En PramTech estamos afinando los últimos detalles para nuestro lanzamiento oficial. ¡Grandes soluciones tecnológicas están en camino!
+        <span class="announce__sep" aria-hidden="true">•</span>
+      </span>
+    </div>
+    <button class="announce__toggle" id="announce-toggle" type="button" aria-label="Pausar anuncio" aria-pressed="false">
+      <svg class="announce__pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 5v14M15 5v14"/></svg>
+      <svg class="announce__play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7V5Z"/></svg>
+    </button>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap header__inner">
+      <a class="brand" href="#inicio" aria-label="PramTech, ir al inicio">
+        <img class="brand__mark" src="assets/logo-mark.svg" alt="" width="34" height="34" />
+        <span class="brand__word">Pram<span>Tech</span></span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav-panel" aria-label="Navegación principal">
+        <a href="#resolvemos">Qué resolvemos</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#asesoria">Asesoría</a>
+        <a href="#nosotros">Nosotros</a>
+        <a class="btn btn--primary btn--sm nav__cta" href="#contacto">
+          Quiero mi diagnóstico gratis
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </nav>
+    </div>
+    <span class="header__progress" aria-hidden="true"></span>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__grid"></span>
+        <span class="hero__ring"></span>
+      </div>
+
+      <div class="wrap hero__inner">
+        <div class="hero__copy">
+          <h1 id="hero-title" class="reveal" style="--i: 1">Ordena tu inventario y automatiza tus ventas <em>sin volverte experto en tecnología.</em></h1>
+          <p class="hero__lead reveal" style="--i: 2">Combinamos micro-herramientas con inteligencia artificial y asesoría humana para que tu negocio funcione mejor desde la primera semana. Simple, cercano y a tu medida.</p>
+
+          <div class="hero__actions reveal" style="--i: 3">
+            <a class="btn btn--cyan" href="#contacto">
+              Agenda tu diagnóstico gratuito
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#soluciones">Ver las soluciones</a>
+          </div>
+
+          <p class="hero__trust reveal" style="--i: 4">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.5 12 2.4 2.4 4.6-4.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="hero__trust-list">
+              <span>Acompañamiento paso a paso</span>
+              <span>Hecho para pymes</span>
+              <span>Soporte humano real</span>
+            </span>
+          </p>
+        </div>
+
+        <div class="hero__visual reveal" style="--i: 2" aria-hidden="true">
+          <div class="hero__panel">
+            <div class="panel">
+              <div class="panel__top">
+                <span class="panel__dots"><i></i><i></i><i></i></span>
+                <span class="panel__title">Panel PramTech · Inventario</span>
+                <span class="panel__live"><i></i> En vivo</span>
+              </div>
+              <div class="panel__body">
+                <div class="panel__kpis">
+                  <div class="kpi">
+                    <span class="kpi__label">Stock activo</span>
+                    <strong class="kpi__value">1.248</strong>
+                    <span class="kpi__tag kpi__tag--up">+12%</span>
+                  </div>
+                  <div class="kpi">
+                    <span class="kpi__label">Por reabastecer</span>
+                    <strong class="kpi__value">7</strong>
+                    <span class="kpi__tag kpi__tag--warn">atención</span>
+                  </div>
+                </div>
+
+                <div class="panel__chart">
+                  <div class="panel__chart-head">
+                    <span>Movimiento de stock</span>
+                    <span>Últimos 7 días</span>
+                  </div>
+                  <div class="chart-wrap">
+                    <svg class="chart" viewBox="0 0 320 120" preserveAspectRatio="xMidYMid meet">
+                    <g class="chart__grid" stroke="#1B3A6B" stroke-opacity=".12" stroke-width="1">
+                      <line x1="0" y1="24" x2="320" y2="24"/>
+                      <line x1="0" y1="56" x2="320" y2="56"/>
+                      <line x1="0" y1="88" x2="320" y2="88"/>
+                    </g>
+                    <path d="M0,88 C38,74 58,48 92,58 C126,68 142,30 180,34 C218,38 240,64 320,24 L320,120 L0,120 Z" fill="rgba(34,184,207,.18)"/>
+                    <path class="chart__line" d="M0,88 C38,74 58,48 92,58 C126,68 142,30 180,34 C218,38 240,64 320,24" fill="none" stroke="#22B8CF" stroke-width="2.5" stroke-linecap="round"/>
+                    <g fill="#0E274A">
+                      <circle cx="92" cy="58" r="3.5"/>
+                      <circle cx="180" cy="34" r="3.5"/>
+                      <circle cx="320" cy="24" r="3.5"/>
+                    </g>
+                  </svg>
+                  </div>
+                  <div class="panel__axis"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+                </div>
+
+                <div class="panel__ai">
+                  <span class="panel__ai-badge">IA</span>
+                  <p>Te sugerimos pedir <strong>3 cajas</strong> del producto más vendido antes del fin de semana.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__signals">
+            <span class="float float--wa"><i></i> WhatsApp conectado</span>
+            <span class="float float--stock"><i></i> Stock actualizado <strong>hace 2 min</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight" aria-label="Cómo funciona PramTech">
+      <div class="wrap highlight__inner reveal">
+        <p class="highlight__label"><span aria-hidden="true"></span> El problema de fondo</p>
+        <p class="highlight__text"><strong>Olvídate de las planillas interminables.</strong> PramTech conecta tu WhatsApp y tus ventas online para actualizar tu inventario automáticamente en tiempo real y decirte con precisión qué productos necesitas reabastecer.</p>
+      </div>
+    </section>
+
+    <section class="section section--pains" id="resolvemos" aria-labelledby="pains-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <h2 id="pains-title">El problema no es tu negocio. Es que las herramientas no fueron hechas para ti.</h2>
+          <p class="kicker">01 <span aria-hidden="true">/</span> Qué resolvemos</p>
+          <p class="section-sub">Sabemos cómo se siente: la tecnología avanza más rápido de lo que puedes seguir. Pero no necesitas un sistema gigante. Necesitas soluciones concretas para tus dolores concretos.</p>
+        </header>
+
+        <div class="pains">
+          <article class="pain reveal" style="--i: 0">
+            <span class="pain__num" aria-hidden="true">01</span>
+            <h3>“No sé cuánto tengo ni cuánto me falta.”</h3>
+            <p>Se te escapan productos, compras de más o te quedas sin stock. Nuestra solución de control de inventario te muestra en un panel simple qué tienes, qué se mueve y qué pedir, sin planillas interminables.</p>
+          </article>
+
+          <article class="pain reveal" style="--i: 1">
+            <span class="pain__num" aria-hidden="true">02</span>
+            <h3>“Vendo online, pero todo es manual y se me desordena.”</h3>
+            <p>Centralizamos tus pedidos y automatizamos lo repetitivo. Tus ventas online dejan de ser un caos de mensajes y se vuelven un flujo ordenado que puedes ver de un vistazo.</p>
+          </article>
+
+          <article class="pain reveal" style="--i: 2">
+            <span class="pain__num" aria-hidden="true">03</span>
+            <h3>“No tengo tiempo para aprender algo complicado.”</h3>
+            <p>Diseñamos todo para que se entienda y se use en minutos. Y si algo no encaja del todo con tu forma de trabajar, lo ajustamos contigo.</p>
+          </article>
+        </div>
+
+        <div class="shift reveal">
+          <div class="shift__head">
+            <div>
+              <h3>La misma pyme. Otra semana.</h3>
+            </div>
+            <p class="shift__lead">No cambias tu forma de vender ni aprendes un sistema enorme. Dejas de hacer a mano lo que puede ordenarse solo.</p>
+          </div>
+
+          <div class="shift__board">
+            <div class="shift__labels" aria-hidden="true">
+              <span>Hoy</span>
+              <span>Con PramTech</span>
+            </div>
+            <ul class="shift__list">
+              <li class="shift__row">
+                <p class="shift__cell shift__cell--before">
+                  <span class="shift__tag shift__tag--before">Hoy</span>
+                  <span>Buscas en la planilla cuánto queda.</span>
+                </p>
+                <p class="shift__cell shift__cell--after">
+                  <span class="shift__tag shift__tag--after">Con PramTech</span>
+                  <span>El stock se actualiza con cada venta.</span>
+                </p>
+              </li>
+              <li class="shift__row">
+                <p class="shift__cell shift__cell--before">
+                  <span class="shift__tag shift__tag--before">Hoy</span>
+                  <span>Los pedidos viven en tres chats distintos.</span>
+                </p>
+                <p class="shift__cell shift__cell--after">
+                  <span class="shift__tag shift__tag--after">Con PramTech</span>
+                  <span>Todos llegan a una sola lista.</span>
+                </p>
+              </li>
+              <li class="shift__row">
+                <p class="shift__cell shift__cell--before">
+                  <span class="shift__tag shift__tag--before">Hoy</span>
+                  <span>Te enteras del quiebre cuando ya pasó.</span>
+                </p>
+                <p class="shift__cell shift__cell--after">
+                  <span class="shift__tag shift__tag--after">Con PramTech</span>
+                  <span>La alerta llega antes de que se acabe.</span>
+                </p>
+              </li>
+              <li class="shift__row">
+                <p class="shift__cell shift__cell--before">
+                  <span class="shift__tag shift__tag--before">Hoy</span>
+                  <span>Decides con la sensación de siempre.</span>
+                </p>
+                <p class="shift__cell shift__cell--after">
+                  <span class="shift__tag shift__tag--after">Con PramTech</span>
+                  <span>Decides con el resumen de la semana.</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-cta reveal">
+          <a class="btn btn--primary" href="#contacto">
+            Cuéntanos tu caso y te ayudamos
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--solutions" id="soluciones" aria-labelledby="solutions-title">
+      <div class="wrap">
+        <header class="section-head section-head--light reveal">
+          <h2 id="solutions-title">Micro-apps con IA, hechas para tu día a día.</h2>
+          <p class="kicker">02 <span aria-hidden="true">/</span> Micro-soluciones SaaS + IA</p>
+          <p class="section-sub">No instalamos software pesado. Creamos herramientas simples, rápidas y potenciadas con inteligencia artificial, pensadas para tareas concretas de tu negocio.</p>
+        </header>
+
+        <div class="solutions">
+          <article class="solution reveal" style="--i: 0">
+            <div class="solution__visual" aria-hidden="true">
+              <div class="mini">
+                <div class="mini__head"><span>Bodega · jueves</span><span>4 productos</span></div>
+                <div class="mini__row"><span>Café molido 500 g</span><b>8</b><span class="tag tag--warn">Reponer</span></div>
+                <div class="mini__row"><span>Harina 1 kg</span><b>24</b><span class="tag tag--ok">OK</span></div>
+                <div class="mini__row"><span>Té ceylán 20 bolsitas</span><b>3</b><span class="tag tag--warn">Reponer</span></div>
+                <div class="mini__row"><span>Arroz 1 kg</span><b>18</b><span class="tag tag--ok">OK</span></div>
+              </div>
+            </div>
+            <div class="solution__body">
+              <h3>Control de Inventario Inteligente</h3>
+              <p>Tu stock, tu bodega y tus alertas en un solo panel. La IA te avisa qué pedir antes de que se acabe, para que nunca pierdas una venta por falta de producto.</p>
+              <ul class="check-list">
+                <li>Alertas automáticas de stock bajo</li>
+                <li>Sugerencias de reabastecimiento</li>
+                <li>Vista simple para todo el equipo</li>
+              </ul>
+              <div class="solution__foot">
+                <span class="solution__state"><i></i> Disponible</span>
+                <button class="solution__open" type="button" data-demo="inventario" aria-haspopup="dialog" aria-controls="demo-modal">
+                  Ver demo del inventario
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="solution reveal" style="--i: 1">
+            <div class="solution__visual" aria-hidden="true">
+              <div class="mini">
+                <div class="mini__head"><span>Pedidos de hoy</span><span>3 por preparar</span></div>
+                <div class="mini__order">
+                  <div><b>#1042 · Carla M.</b><span><i class="ch ch--wa"></i> WhatsApp</span></div>
+                  <span class="tag tag--warn">Por preparar</span>
+                </div>
+                <div class="mini__order">
+                  <div><b>#1043 · Sra. Rojas</b><span><i class="ch ch--ig"></i> Instagram</span></div>
+                  <span class="tag tag--ok">Enviado</span>
+                </div>
+                <div class="mini__order">
+                  <div><b>#1044 · Juan P.</b><span><i class="ch ch--web"></i> Página web</span></div>
+                  <span class="tag tag--warn">Por preparar</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution__body">
+              <h3>Automatización de Ventas Online</h3>
+              <p>Conecta tus canales y deja que los pedidos, recordatorios y respuestas repetitivas se hagan solos. Tú enfócate en vender, no en copiar y pegar.</p>
+              <ul class="check-list">
+                <li>Pedidos centralizados por canal</li>
+                <li>Respuestas y recordatorios automáticos</li>
+                <li>Seguimiento claro de cada venta</li>
+              </ul>
+              <div class="solution__foot">
+                <span class="solution__state"><i></i> Disponible</span>
+                <button class="solution__open" type="button" data-demo="ventas" aria-haspopup="dialog" aria-controls="demo-modal">
+                  Ver demo de ventas
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="solution reveal" style="--i: 2">
+            <div class="solution__visual" aria-hidden="true">
+              <div class="mini mini--chat">
+                <div class="bubble bubble--in"><span class="bubble__label">Cliente · WhatsApp</span>¿Tienen envío a Rancagua?</div>
+                <div class="bubble bubble--out"><span class="bubble__label">Borrador IA</span>Sí, despachamos los martes y viernes.</div>
+                <div class="bubble bubble--in bubble--sm">¿Y aceptan transferencia?</div>
+              </div>
+            </div>
+            <div class="solution__body">
+              <h3>Asistente IA para tu Pyme</h3>
+              <p>Como tener un ayudante experto disponible 24/7 que conoce tu negocio a fondo.</p>
+              <ul class="check-list">
+                <li>Responde tus WhatsApps y mantiene tu stock al día</li>
+                <li>Te avisa qué comprar antes del fin de semana</li>
+                <li>Consultas en lenguaje natural, sin planillas</li>
+              </ul>
+              <div class="solution__foot">
+                <span class="solution__state"><i></i> Disponible</span>
+                <button class="solution__open" type="button" data-demo="asistente" aria-haspopup="dialog" aria-controls="demo-modal">
+                  Ver demo del asistente
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="solution reveal" style="--i: 3">
+            <div class="solution__visual" aria-hidden="true">
+              <div class="mini">
+                <div class="mini__head"><span>Resumen semanal</span><span>19–25 oct</span></div>
+                <div class="mini__kpis">
+                  <div><span>Ventas</span><b>$1.245.000</b></div>
+                  <div><span>Pedidos</span><b>38</b></div>
+                </div>
+                <div class="mini__bars">
+                  <span style="--h: 38%"></span><span style="--h: 58%"></span><span style="--h: 44%"></span><span style="--h: 76%"></span><span style="--h: 54%"></span><span style="--h: 92%"></span><span style="--h: 66%"></span>
+                </div>
+              </div>
+            </div>
+            <div class="solution__body">
+              <h3>Reportes que se entienden</h3>
+              <p>Nada de tablas complejas. Gráficos claros que te dicen cómo va tu negocio y qué decisión tomar. Información útil en segundos.</p>
+              <ul class="check-list">
+                <li>Resumen visual de ventas y stock</li>
+                <li>Indicadores clave sin ruido</li>
+                <li>Listo para compartir con tu equipo</li>
+              </ul>
+              <div class="solution__foot">
+                <span class="solution__state"><i></i> Disponible</span>
+                <button class="solution__open" type="button" data-demo="reportes" aria-haspopup="dialog" aria-controls="demo-modal">
+                  Ver demo de reportes
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="integrations reveal">
+          <p class="integrations__title"><span aria-hidden="true"></span> Se conecta con lo que ya usas</p>
+          <ul class="integrations__list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.3 2.8 2.7 5.2 5.5 5.5l1-1.5-1.8-1-.8.8c-.9-.4-1.7-1.2-2.1-2.1l.8-.8-1-1.8-1.6 1Z"/></svg>
+              WhatsApp
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg>
+              Instagram
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 9h15l-1.2 9.2a2 2 0 0 1-2 1.8H7.7a2 2 0 0 1-2-1.8L4.5 9Z"/><path d="M9 9V7a3 3 0 0 1 6 0v2"/></svg>
+              Tu tienda online
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9.5h16M9.5 9.5V20M4 15h16"/></svg>
+              Planillas
+            </li>
+          </ul>
+        </div>
+
+        <p class="solutions__note reveal">Estamos construyendo el futuro de PramTech contigo. Sé de los primeros. Las herramientas usan IA para sugerir textos o avisos, pero las configura y las revisa alguien del equipo: no responden solas en tu nombre.</p>
+      </div>
+    </section>
+
+    <section class="section section--advice" id="asesoria" aria-labelledby="advice-title">
+      <span class="anchor" id="acompanamos" aria-hidden="true"></span>
+      <div class="wrap advice">
+        <div class="advice__intro reveal">
+          <h2 id="advice-title">Nunca vas a estar solo en esto.</h2>
+          <p class="kicker kicker--light">03 <span aria-hidden="true">/</span> Educación y asesoría</p>
+          <p>La tecnología no sirve si no sabes usarla. Por eso el corazón de PramTech es acompañarte, explicarte y capacitarte hasta que todo sea fácil.</p>
+          <p class="advice__badge"><span aria-hidden="true"></span> 30 minutos · gratuito · sin compromiso</p>
+          <a class="btn btn--cyan" href="#contacto">
+            Agenda tu diagnóstico
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+          <blockquote class="advice__quote">
+            <p>“No te vendemos una herramienta y desaparecemos. Te enseñamos a ganar tiempo con ella.”</p>
+            <cite>Equipo PramTech</cite>
+          </blockquote>
+        </div>
+
+        <ol class="steps">
+          <li class="reveal" style="--i: 0">
+            <span class="step__num" aria-hidden="true">01</span>
+            <div>
+              <h3>Diagnóstico</h3>
+              <p>Conversamos y entendemos tu negocio y tus dolores reales. Sin jerga, sin presión.</p>
+            </div>
+          </li>
+          <li class="reveal" style="--i: 1">
+            <span class="step__num" aria-hidden="true">02</span>
+            <div>
+              <h3>Implementación guiada</h3>
+              <p>Instalamos y configuramos contigo, no para ti. Tú aprendes el camino mientras lo recorremos.</p>
+            </div>
+          </li>
+          <li class="reveal" style="--i: 2">
+            <span class="step__num" aria-hidden="true">03</span>
+            <div>
+              <h3>Capacitación y soporte</h3>
+              <p>Te enseñamos paso a paso y quedamos disponibles por si algo se complica. Siempre hay alguien al otro lado.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--about" id="nosotros" aria-labelledby="about-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <h2 id="about-title">Tecnología con rostro humano.</h2>
+          <p class="kicker">04 <span aria-hidden="true">/</span> Nosotros</p>
+          <p class="section-sub">Un equipo senior, directo y cercano. Sin intermediarios: hablas con quien diseña y resuelve.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Sobre PramTech">
+          <button class="tab is-active" id="tab-about" type="button" role="tab" aria-selected="true" aria-controls="panel-about" tabindex="0">Quiénes somos</button>
+          <button class="tab" id="tab-team" type="button" role="tab" aria-selected="false" aria-controls="panel-team" tabindex="-1">Nuestro equipo</button>
+        </div>
+
+        <div class="tabpanel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" tabindex="0">
+          <div class="about">
+            <div class="about__copy reveal">
+              <h3>Las pymes merecen la misma tecnología que las grandes. Sin la complejidad ni los costos que las dejan fuera.</h3>
+              <p>PramTech nació de una idea simple: las pymes merecen la misma tecnología que las grandes empresas, pero sin la complejidad ni los costos que las dejan fuera. Somos un equipo que traduce lo técnico a lo cotidiano, que escucha antes de recomendar y que se queda a tu lado durante todo el proceso.</p>
+              <p>Creemos en la transparencia, en los resultados medibles y en que la mejor tecnología es la que usas sin pensarlo.</p>
+              <p class="about__sign">Equipo PramTech <span aria-hidden="true">·</span> Chile</p>
+
+              <dl class="about__facts">
+                <div>
+                  <dt>Equipo</dt>
+                  <dd>3 personas senior</dd>
+                </div>
+                <div>
+                  <dt>Base</dt>
+                  <dd>Chile</dd>
+                </div>
+                <div>
+                  <dt>Foco</dt>
+                  <dd>Pymes que venden productos</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="pillars">
+              <article class="pillar reveal" style="--i: 0">
+                <span class="pillar__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-9.6A4.4 4.4 0 0 1 12 8a4.4 4.4 0 0 1 7 3.4C19 16.6 12 21 12 21Z"/></svg>
+                </span>
+                <div>
+                  <h3>Cercanía</h3>
+                  <p>Hablamos tu idioma, no el de los ingenieros.</p>
+                </div>
+              </article>
+              <article class="pillar reveal" style="--i: 1">
+                <span class="pillar__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z"/><path d="m8.6 12 2.3 2.3 4.5-4.7" stroke-linecap="round"/></svg>
+                </span>
+                <div>
+                  <h3>Transparencia</h3>
+                  <p>Precios claros, sin letra chica ni sorpresas.</p>
+                </div>
+              </article>
+              <article class="pillar reveal" style="--i: 2">
+                <span class="pillar__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
+                </span>
+                <div>
+                  <h3>Vanguardia útil</h3>
+                  <p>IA y automatización al servicio de tu negocio, no al revés.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabpanel" id="panel-team" role="tabpanel" aria-labelledby="tab-team" tabindex="0" hidden>
+          <div class="team" id="equipo">
+            <div class="team__head reveal">
+              <h3>Las personas detrás de PramTech</h3>
+              <p>Un equipo senior, directo y cercano. Sin intermediarios: hablas con quien diseña y resuelve.</p>
+            </div>
+
+            <div class="team__grid">
+              <article class="member reveal" style="--i: 0">
+                <div class="member__media">
+                  <span class="member__index" aria-hidden="true">01</span>
+                  <picture>
+                    <source type="image/avif" srcset="assets/img/antonio-480.avif 480w, assets/img/antonio-720.avif 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <source type="image/webp" srcset="assets/img/antonio-480.webp 480w, assets/img/antonio-720.webp 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <img src="assets/img/antonio-720.webp" alt="Antonio Viluñir T., fundador y director de PramTech." width="720" height="900" loading="lazy" decoding="async" />
+                  </picture>
+                </div>
+                <div class="member__body">
+                  <h4>Antonio Viluñir T.</h4>
+                  <p class="member__role">Fundador y Director</p>
+                  <p class="member__bio">Define la visión y acompaña cada proyecto de principio a fin, traduciendo la estrategia del negocio en soluciones concretas.</p>
+                </div>
+              </article>
+
+              <article class="member reveal" style="--i: 1">
+                <div class="member__media">
+                  <span class="member__index" aria-hidden="true">02</span>
+                  <picture>
+                    <source type="image/avif" srcset="assets/img/franco-480.avif 480w, assets/img/franco-720.avif 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <source type="image/webp" srcset="assets/img/franco-480.webp 480w, assets/img/franco-720.webp 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <img src="assets/img/franco-720.webp" alt="Franco Armijo M., gerente de Servicio de PramTech." width="720" height="900" loading="lazy" decoding="async" />
+                  </picture>
+                </div>
+                <div class="member__body">
+                  <h4>Franco Armijo M.</h4>
+                  <p class="member__role">Gerente de Servicio</p>
+                  <p class="member__bio">Coordina la implementación y el soporte, asegurando que cada solución funcione en el día a día y que nada quede al azar.</p>
+                </div>
+              </article>
+
+              <article class="member reveal" style="--i: 2">
+                <div class="member__media">
+                  <span class="member__index" aria-hidden="true">03</span>
+                  <picture>
+                    <source type="image/avif" srcset="assets/img/matias-480.avif 480w, assets/img/matias-720.avif 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <source type="image/webp" srcset="assets/img/matias-480.webp 480w, assets/img/matias-720.webp 720w" sizes="(min-width: 960px) 30vw, 100vw" />
+                    <img src="assets/img/matias-720.webp" alt="Matias Gonzalez V., especialista de PramTech." width="720" height="900" loading="lazy" decoding="async" />
+                  </picture>
+                </div>
+                <div class="member__body">
+                  <h4>Matias Gonzalez V.</h4>
+                  <p class="member__role">Especialista</p>
+                  <p class="member__bio">Diseña las integraciones, automatizaciones e IA que hacen que todo trabaje conectado y sin fricción.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="team__bock reveal">
+              <picture>
+                <source type="image/avif" srcset="assets/img/bock-320.avif 320w, assets/img/bock-640.avif 640w" sizes="64px" />
+                <source type="image/webp" srcset="assets/img/bock-320.webp 320w, assets/img/bock-640.webp 640w" sizes="64px" />
+                <img src="assets/img/bock-320.webp" alt="Bock, el perro negro de PramTech." width="320" height="320" loading="lazy" decoding="async" />
+              </picture>
+              <p><strong>Bock</strong> · Jefe de ánimo. No contesta WhatsApp: eso lo hacemos nosotros.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--faq" id="preguntas" aria-labelledby="faq-title">
+      <div class="wrap faq">
+        <header class="faq__head reveal">
+          <h2 id="faq-title">Lo que más nos preguntan.</h2>
+          <p class="kicker">05 <span aria-hidden="true">/</span> Preguntas</p>
+          <p>Si te queda otra duda, escríbenos. Te responde una persona del equipo.</p>
+          <a class="link-arrow" href="https://wa.me/56961864903?text=Hola%20PramTech%2C%20tengo%20una%20duda%20sobre%20sus%20soluciones." target="_blank" rel="noopener">
+            Hacer una pregunta
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </header>
+
+        <div class="faq__list reveal">
+          <details>
+            <summary>¿Necesito saber de tecnología?</summary>
+            <p>No. Partimos por lo que ya usas: WhatsApp, tu cuaderno, tus planillas. Te explicamos en palabras simples y dejamos todo configurado contigo.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa en el diagnóstico de 30 minutos?</summary>
+            <p>Conversamos sobre cómo funciona tu negocio hoy, qué te complica y qué te gustaría ordenar primero. Sales con recomendaciones concretas, aunque no trabajes con nosotros.</p>
+          </details>
+          <details>
+            <summary>¿Tengo que contratar algo para hablar?</summary>
+            <p>No. El diagnóstico es gratuito y sin compromiso.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa después?</summary>
+            <p>Si lo que conversamos te sirve, instalamos y configuramos contigo. Te enseñamos a usarlo y quedamos disponibles por si algo se complica.</p>
+          </details>
+          <details>
+            <summary>¿Trabajan con negocios como el mío?</summary>
+            <p>Trabajamos con pymes chilenas que venden productos y necesitan ordenar su bodega, sus pedidos o sus mensajes. Si tu caso no calza, te lo decimos en la primera conversación.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap contact">
+        <div class="contact__copy reveal">
+          <h2 id="contact-title">Da el primer paso hacia una pyme más ordenada y automatizada.</h2>
+          <p class="kicker kicker--light">06 <span aria-hidden="true">/</span> Empecemos</p>
+          <p class="contact__lead">Déjanos tus datos y te contactamos para agendar tu diagnóstico gratuito. Sin costo, sin compromiso.</p>
+          <ul class="contact__points">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg> Diagnóstico de 30 minutos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg> Recomendaciones concretas para tu negocio</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg> Sin obligación de contratar nada</li>
+          </ul>
+
+          <div class="contact__people">
+            <div class="avatars" aria-hidden="true">
+              <picture><source type="image/avif" srcset="assets/img/antonio-480.avif" /><source type="image/webp" srcset="assets/img/antonio-480.webp" /><img src="assets/img/antonio-480.webp" alt="" width="44" height="44" loading="lazy" /></picture>
+              <picture><source type="image/avif" srcset="assets/img/franco-480.avif" /><source type="image/webp" srcset="assets/img/franco-480.webp" /><img src="assets/img/franco-480.webp" alt="" width="44" height="44" loading="lazy" /></picture>
+              <picture><source type="image/avif" srcset="assets/img/matias-480.avif" /><source type="image/webp" srcset="assets/img/matias-480.webp" /><img src="assets/img/matias-480.webp" alt="" width="44" height="44" loading="lazy" /></picture>
+            </div>
+            <p>Del otro lado está Antonio, Franco o Matías. Una persona del equipo.</p>
+          </div>
+
+          <div class="contact__direct">
+            <a class="btn btn--cyan" href="https://wa.me/56961864903?text=Hola%20PramTech%2C%20quiero%20agendar%20el%20diagn%C3%B3stico%20gratuito%20de%2030%20minutos." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.2A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.3 2.8 2.7 5.2 5.5 5.5l1-1.5-1.8-1-.8.8c-.9-.4-1.7-1.2-2.1-2.1l.8-.8-1-1.8-1.6 1Z"/></svg>
+              Escribir por WhatsApp
+            </a>
+            <div class="contact__mail">
+              <a class="contact__email" href="mailto:hola@pramtech.com">hola@pramtech.com</a>
+              <button type="button" class="copy-mail" data-copy="hola@pramtech.com" aria-label="Copiar correo hola@pramtech.com" title="Copiar correo">
+                <svg class="copy-mail__copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M15 5H6a1 1 0 0 0-1 1v9"/></svg>
+                <svg class="copy-mail__check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              </button>
+              <span class="sr-only" id="copy-mail-status" role="status"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap reveal" style="--i: 1">
+          <form class="form" id="lead-form" novalidate>
+            <div class="form__head">
+              <h3>Cuéntanos un poco</h3>
+              <p>Te respondemos por WhatsApp. Te responde una persona del equipo.</p>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="nombre">Tu nombre</label>
+                <input id="nombre" name="nombre" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" required aria-describedby="error-nombre" />
+                <p class="field__error" id="error-nombre" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="negocio">Nombre de tu negocio</label>
+                <input id="negocio" name="negocio" type="text" autocomplete="organization" autocapitalize="words" spellcheck="false" enterkeyhint="next" required aria-describedby="error-negocio" />
+                <p class="field__error" id="error-negocio" hidden></p>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="telefono">WhatsApp <span class="field__hint">Sin +56</span></label>
+                <div class="field__phone">
+                  <span aria-hidden="true">+56</span>
+                  <input id="telefono" name="telefono" type="tel" inputmode="tel" autocomplete="tel-national" enterkeyhint="done" required placeholder="9 1234 5678" aria-describedby="error-telefono" />
+                </div>
+                <p class="field__error" id="error-telefono" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="interes">¿Qué quieres ordenar primero?</label>
+                <select id="interes" name="interes">
+                  <option value="">No sé todavía</option>
+                  <option value="Bodega y stock">Bodega y stock</option>
+                  <option value="Pedidos y ventas">Pedidos y ventas</option>
+                  <option value="Respuestas a clientes">Respuestas a clientes</option>
+                  <option value="Reportes">Reportes</option>
+                  <option value="No sé, necesito orientación">No sé, necesito orientación</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="mensaje">Cuéntanos un poco <span class="field__hint">(opcional)</span></label>
+              <textarea id="mensaje" name="mensaje" rows="3" maxlength="400" spellcheck="true" placeholder="Ej: tengo un almacén y anoto los pedidos en un cuaderno…"></textarea>
+              <p class="field__count" id="count-mensaje" aria-hidden="true">0 / 400</p>
+            </div>
+
+            <button class="btn btn--primary btn--block" type="submit">
+              Agendar por WhatsApp
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </button>
+            <p class="form__legal">Al continuar se abrirá WhatsApp con tu mensaje listo para enviar. Tus datos son confidenciales y no los compartimos.</p>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+            <noscript><p class="form__legal">Para agendar, escríbenos directo a <a href="https://wa.me/56961864903">WhatsApp</a> o a <a href="mailto:hola@pramtech.com">hola@pramtech.com</a>.</p></noscript>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--light" href="#inicio" aria-label="PramTech, ir al inicio">
+          <img class="brand__mark" src="assets/logo-mark-light.svg" alt="" width="34" height="34" />
+          <span class="brand__word">Pram<span>Tech</span></span>
+        </a>
+        <p>Tecnología que sí entiende a tu pyme. Personas, no intermediarios.</p>
+        <p class="footer__status"><i aria-hidden="true"></i> Lanzamiento en preparación</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Enlaces del sitio">
+        <p class="footer__title">Navegación</p>
+        <a href="#resolvemos">Qué resolvemos</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#asesoria">Asesoría</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="footer__contact">
+        <p class="footer__title">Hablemos</p>
+        <a href="https://wa.me/56961864903" target="_blank" rel="noopener">WhatsApp · +56 9 6186 4903<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+        <a href="mailto:hola@pramtech.com">hola@pramtech.com</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+      </div>
+
+      <nav class="footer__legal" aria-label="Información legal">
+        <p class="footer__title">Información legal</p>
+        <a href="aviso-legal.html">Aviso Legal</a>
+        <a href="politica-de-privacidad.html">Política de Privacidad</a>
+        <a href="politica-de-cookies.html">Política de Cookies</a>
+        <a href="terminos-y-condiciones-de-uso.html">Términos y Condiciones de Uso</a>
+        <a href="condiciones-generales-de-contratacion.html">Condiciones Generales de Contratación</a>
+        <a href="politica-de-cancelacion.html">Política de Cancelación</a>
+      </nav>
+    </div>
+
+    <div class="wrap footer__bottom">
+      <span>© 2026 PramTech. Todos los derechos reservados.</span>
+      <div class="footer__meta">
+        <span>Hecho en Chile, con calma y para pymes.</span>
+        <a class="footer__top" href="#inicio">
+          Volver arriba
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="bock" id="bock">
+    <div class="bock__panel" id="bock-panel" role="dialog" aria-label="Asistente Bock de PramTech" hidden>
+      <div class="bock__head">
+        <picture>
+          <source type="image/avif" srcset="assets/img/bock-320.avif" />
+          <source type="image/webp" srcset="assets/img/bock-320.webp" />
+          <img src="assets/img/bock-320.webp" alt="" width="40" height="40" />
+        </picture>
+        <div>
+          <strong>Bock</strong>
+          <span><i aria-hidden="true"></i> Asistente de PramTech</span>
+        </div>
+        <button type="button" class="bock__close" id="bock-close" aria-label="Cerrar asistente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="bock__log" id="bock-log" role="log" aria-live="polite" aria-atomic="false"></div>
+      <div class="bock__chips" id="bock-chips"></div>
+      <form class="bock__form" id="bock-form" autocomplete="off">
+        <label class="sr-only" for="bock-input">Escribe lo que necesitas</label>
+        <input class="bock__input" id="bock-input" type="text" enterkeyhint="send" placeholder="Escribe lo que necesitas…" />
+        <button type="submit" class="bock__send" aria-label="Enviar mensaje a Bock">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l15-8-6 8 6 8-15-8Z"/></svg>
+        </button>
+      </form>
+    </div>
+
+    <button type="button" class="bock__toggle" id="bock-toggle" aria-label="Abrir asistente Bock" aria-expanded="false" aria-controls="bock-panel">
+      <span class="bock__pulse" aria-hidden="true"></span>
+      <picture>
+        <source type="image/avif" srcset="assets/img/bock-320.avif 320w, assets/img/bock-640.avif 640w" sizes="68px" />
+        <source type="image/webp" srcset="assets/img/bock-320.webp 320w, assets/img/bock-640.webp 640w" sizes="68px" />
+        <img src="assets/img/bock-320.webp" alt="" width="320" height="320" />
+      </picture>
+      <span class="bock__hint" aria-hidden="true">¿Te ayudo?</span>
+    </button>
+  </div>
+
+  <div class="modal" id="demo-modal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="demo-title" aria-describedby="demo-desc">
+      <button type="button" class="modal__close" data-close aria-label="Cerrar demo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div class="modal__body" id="demo-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
